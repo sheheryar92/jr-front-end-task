@@ -1,3 +1,18 @@
+body {
+    font-size: 16px; 
+
+}
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
 p,h1,h2 {
     padding: 0px;
     margin: 0px;
@@ -29,7 +44,7 @@ a.nav-link {
 }
 
 /* hero sectoin */
-.her_secion {
+.hero_secion {
     background-color: #019a97;
 }
 
@@ -142,9 +157,15 @@ background-position: center;
         background-color: #d58e00;
         border-radius: 5px;
     }
+    body {
+        font-size: 0.875rem; /* 14px */
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 767px) {
+    body {
+        font-size: 0.875rem; /* 14px */
+    }
     .countdown_ul li {
         display: inline-block;
         font-size: 0.5rem;
@@ -173,5 +194,7 @@ background-position: center;
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    body {
+        font-size: 1.125rem; /* 18px */
+    }
 }
